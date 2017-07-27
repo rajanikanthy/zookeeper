@@ -66,7 +66,7 @@ public class ZookeeperApp implements Watcher {
 		System.out.println(event.getState());
 		synchronized(mutex) {
 				mutex.notify();
-				greet("Hello World");
+				greet("We are started!");
 		}
 		
 	}
